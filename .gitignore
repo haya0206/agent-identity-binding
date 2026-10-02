@@ -1,0 +1,23 @@
+# 서드파티 (0단계에서 따로 clone)
+vanna/
+.venv/
+__pycache__/
+*.pyc
+
+# 런타임 산출물
+_vanna_fs/
+*.log
+smoke.csv
+smoke_payloads.json
+d1_only.json
+d1d4.json
+only_*.json
+
+# 백업
+*.bak
+*.bak-*
+*.pre-backfill
+
+# 비밀 — 절대 커밋하지 않는다
+.openai.env
+*.env
